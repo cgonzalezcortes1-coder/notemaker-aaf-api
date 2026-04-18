@@ -1,9 +1,4 @@
 {
-  "functions": {
-    "api/generate-aaf.py": {
-      "runtime": "@vercel/python"
-    }
-  },
   "headers": [
     {
       "source": "/api/generate-aaf",
