@@ -1,7 +1,19 @@
 {
+  "builds": [
+    {
+      "src": "api/generate_aaf.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/generate_aaf",
+      "dest": "/api/generate_aaf.py"
+    }
+  ],
   "headers": [
     {
-      "source": "/api/generate-aaf",
+      "source": "/api/generate_aaf",
       "headers": [
         { "key": "Access-Control-Allow-Origin", "value": "https://videoplayer-d7p.pages.dev" },
         { "key": "Access-Control-Allow-Methods", "value": "POST, OPTIONS" },
