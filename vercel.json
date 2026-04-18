@@ -1,0 +1,18 @@
+{
+  "functions": {
+    "api/generate-aaf.py": {
+      "runtime": "vercel-python@0.1.0"
+    }
+  },
+  "headers": [
+    {
+      "source": "/api/generate-aaf",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "https://videoplayer-d7p.pages.dev" },
+        { "key": "Access-Control-Allow-Methods", "value": "POST, OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "Content-Type, X-API-Key" },
+        { "key": "Access-Control-Expose-Headers", "value": "Content-Disposition" }
+      ]
+    }
+  ]
+}
