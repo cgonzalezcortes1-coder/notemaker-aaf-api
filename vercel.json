@@ -1,7 +1,7 @@
 {
   "functions": {
     "api/generate-aaf.py": {
-      "runtime": "vercel-python@0.1.0"
+      "runtime": "@vercel/python"
     }
   },
   "headers": [
